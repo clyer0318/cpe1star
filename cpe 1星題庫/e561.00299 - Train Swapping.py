@@ -9,4 +9,4 @@ for _ in range(N):
             if m[i] > m[i + 1]:
                 m[i], m[i + 1] = m[i + 1], m[i]
                 total += 1
-    print(total)
+    print(f"Optimal train swapping takes {total} swaps.")
