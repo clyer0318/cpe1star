@@ -20,7 +20,7 @@ def is_happy(n):
     while (n != 1 and n not in visited):
         visited.add(n)
         n = sumof_squared(n)
-    return n == 1
+    return n == 1 #這裡是== 不是=，因為我們要回傳布林值 True 或 False
 
 t = int(input())
 for case_num in range(1, t+1):
