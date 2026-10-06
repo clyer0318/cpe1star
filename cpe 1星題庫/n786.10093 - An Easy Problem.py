@@ -10,7 +10,7 @@ while True:
 
     for char in n:
         if '0' <= char <= '9':
-            value = ord(char) - ord('0')
+            value = ord(char) - ord('0') #ord() 函數可以將字元轉換為對應的 ASCII 整數值
         elif 'A' <= char <= 'Z':
             value = ord(char) - ord('A') + 10
         else:
