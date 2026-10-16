@@ -1,4 +1,4 @@
-#e507.10252 - Common Permutation
+#e507.10252 - Common Permutation #cpe2026/10/6
 while True:
     try:
         a = input()
