@@ -11,7 +11,7 @@ while True:
             for j in range(len(b)):
                 if a[i] == b[j] and j not in used:
                     result.append(a[i])
-                    used.append(j)
+                    used.append(j) # 記錄已使用的索引
                     break
 
         result.sort() #排序
